@@ -17,16 +17,37 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="RF Test Engineer"
-        android:background="#FFFFFF"/>
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:background="#570cb0"/>
 
     <TextView
+        android:id="@+id/sample"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sample App by Jacob Kon"
         android:layout_alignParentBottom="true"
         android:background="#FFFFFF"
-        android:layout_centerHorizontal="true
-      "
-        />
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"/>
 
+    <Button
+        android:text="Check it out!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_above="@+id/sample"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:autoLink="web"
+        android:id="@+id/button_so"
+        android:linksClickable="true"
+        android:onClick="goToSo"
+        />
+    <!--android:onClick="self_destruct"
+            -->
 </RelativeLayout>
